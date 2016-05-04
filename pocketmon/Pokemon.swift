@@ -21,7 +21,7 @@ class Pokemon {
     
     var pokedexId : Int {
         return _pokedexId
-    }
+    } 
     
     
     init(name: String, pokedexId:Int ) {
