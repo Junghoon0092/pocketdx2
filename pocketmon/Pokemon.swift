@@ -20,7 +20,7 @@ class Pokemon {
     }
     
     var pokedexId : Int {
-        return _pokedeId
+        return _pokedexId
     }
     
     
