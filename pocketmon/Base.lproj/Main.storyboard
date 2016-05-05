@@ -39,11 +39,24 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bf-6N-O4m">
+                                        <rect key="frame" x="562" y="18" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="E8L-6b-rFy"/>
+                                            <constraint firstAttribute="height" constant="30" id="KI1-r8-bvH"/>
+                                        </constraints>
+                                        <state key="normal" image="music"/>
+                                        <connections>
+                                            <action selector="musicBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GOy-Vh-Wfn"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.3346751641006882" blue="0.51957225302159293" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="Eny-Op-tAf"/>
                                     <constraint firstItem="Ecf-ye-pIf" firstAttribute="centerY" secondItem="4MA-cG-EJP" secondAttribute="centerY" id="LNd-TD-4Xz"/>
+                                    <constraint firstAttribute="trailing" secondItem="8bf-6N-O4m" secondAttribute="trailing" constant="8" id="jJ4-kD-MLY"/>
+                                    <constraint firstItem="8bf-6N-O4m" firstAttribute="top" secondItem="4MA-cG-EJP" secondAttribute="top" constant="18" id="l12-S1-yOU"/>
                                     <constraint firstItem="Ecf-ye-pIf" firstAttribute="centerX" secondItem="4MA-cG-EJP" secondAttribute="centerX" id="pQE-5a-aT4"/>
                                 </constraints>
                             </view>
@@ -135,5 +148,6 @@
     <resources>
         <image name="297" width="120" height="120"/>
         <image name="bg" width="1920" height="1200"/>
+        <image name="music" width="100" height="100"/>
     </resources>
 </document>
